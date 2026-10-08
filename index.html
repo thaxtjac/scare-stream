@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scare Stream — Support</title>
+<meta name="description" content="Support for Scare Stream, the horror movie finder for what's streaming on your services tonight.">
+<style>
+:root{
+  --canvas:#0B0709; --surface:#1C1013; --raised:#271619;
+  --blood:#C1121F; --ember:#E5383B; --bone:#F2E9E4; --ash:#A89A98;
+  --hairline:rgba(255,255,255,.07);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:var(--canvas);
+  background-image:radial-gradient(ellipse 80% 40% at 50% -10%, rgba(193,18,31,.22), transparent);
+  color:var(--bone);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.6;
+  min-height:100vh;
+}
+.wrap{max-width:680px;margin:0 auto;padding:48px 24px 64px}
+.drop{display:flex;justify-content:center;margin-bottom:20px}
+.drop span{
+  width:56px;height:56px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--ember),var(--blood) 55%,#8E0B16);
+  box-shadow:0 0 32px rgba(193,18,31,.45);
+  font-size:26px;
+}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:40px;font-weight:700;text-align:center;letter-spacing:-.5px}
+.tag{text-align:center;color:var(--ash);font-size:17px;margin:8px 0 40px}
+h2{font-size:20px;margin:36px 0 14px;color:var(--ember);letter-spacing:.2px}
+.card{background:rgba(28,16,19,.85);border:1px solid var(--hairline);border-radius:18px;padding:18px 20px;margin-bottom:12px}
+.card h3{font-size:16px;margin-bottom:6px}
+.card p{color:var(--ash);font-size:15px}
+a{color:var(--ember)}
+.contact{
+  display:block;text-align:center;margin:36px auto 0;
+  background:linear-gradient(135deg,var(--ember),var(--blood) 55%,#8E0B16);
+  color:#fff;text-decoration:none;font-weight:600;font-size:17px;
+  padding:16px 28px;border-radius:17px;max-width:420px;
+  box-shadow:0 8px 28px rgba(193,18,31,.4);
+}
+.contact:active{transform:scale(.97)}
+.foot{text-align:center;color:var(--ash);font-size:13px;margin-top:44px}
+.foot a{color:var(--ash)}
+</style>
+</head>
+<body>
+<main class="wrap">
+<div class="drop"><span>🩸</span></div>
+<h1>Scare Stream Support</h1>
+<p class="tag">Find your next nightmare — on the services you already pay for.</p>
+
+<h2>Frequently asked</h2>
+
+<div class="card">
+  <h3>Does Scare Stream play movies?</h3>
+  <p>No. It shows you where a title is streaming and links you to that service, where you watch it. Availability covers the US.</p>
+</div>
+
+<div class="card">
+  <h3>Why is a movie or show missing?</h3>
+  <p>The catalog comes from TMDB and JustWatch, so only titles with known US streaming availability appear. Pull down to refresh on the Tonight screen, and check that your services are selected on the Services tab.</p>
+</div>
+
+<div class="card">
+  <h3>Why doesn't my service appear in the list?</h3>
+  <p>Scare Stream includes the major US streaming services supported by TMDB's data. Rentals and purchases are hidden when "Only show titles included with my subscriptions" is on.</p>
+</div>
+
+<div class="card">
+  <h3>Where is my watchlist stored?</h3>
+  <p>Entirely on your device. There's no account, no sign-up and no tracking. Deleting the app removes your watchlist, watched history and preferences.</p>
+</div>
+
+<div class="card">
+  <h3>How do I reset my recommendations?</h3>
+  <p>Your taste profile is derived from what you open, save and mark watched. Deleting and reinstalling the app resets it.</p>
+</div>
+
+<h2>Contact</h2>
+<div class="card">
+  <p>Bug, missing title, or a feature idea? Email us and we'll respond within a few days:</p>
+  <p style="margin-top:8px"><a href="mailto:thaxtonjd@gmail.com">thaxtonjd@gmail.com</a></p>
+</div>
+
+<a class="contact" href="mailto:thaxtonjd@gmail.com?subject=Scare%20Stream%20Support">Email Support</a>
+
+<p class="foot">
+  <a href="privacy.html">Privacy Policy</a><br><br>
+  Movie and TV data powered by <a href="https://www.themoviedb.org" rel="noopener">TMDB</a>.
+  Streaming availability powered by <a href="https://www.justwatch.com" rel="noopener">JustWatch</a>.<br>
+  © 2026 Jacob Thaxton
+</p>
+</main>
+</body>
+</html>
